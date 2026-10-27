@@ -25,6 +25,7 @@ pnpm build            # build all apps
 pnpm lint             # lint all apps
 pnpm typecheck        # typecheck all apps
 pnpm test             # test all apps (--if-present)
+pnpm --filter api test:e2e   # api e2e tests (need `docker compose up -d postgres`)
 pnpm format           # prettier --write .
 pnpm format:check     # prettier --check .
 ```
